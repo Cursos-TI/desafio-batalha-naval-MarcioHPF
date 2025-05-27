@@ -35,7 +35,7 @@ int main() {
 
    //Exibe o tabuleiro final
    printf("--- Tabuleiro Final ---\n");
-   printf("-------------------------\n");
+   printf("------------------------------\n");
 
 
    for (l = 0; l < 10; l++) {
