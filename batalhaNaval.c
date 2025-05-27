@@ -46,7 +46,8 @@ int main() {
         printf("|\n"); // Quebra de linha no final de cada linha do tabuleiro
     }
 
-    printf("\n- - - Jogo de Batalha Naval Concluído! - - -\n");
+    printf("------------------------------\n");
+    printf("\n- - - Jogo de Batalha Naval Concluído! - - -\n\n");
 
     return 0;
 }
