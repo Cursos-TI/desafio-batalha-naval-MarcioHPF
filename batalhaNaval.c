@@ -26,10 +26,10 @@ int main() {
 
     // Coloca o segundo navio na vertical
     printf("Posicionando o segundo navio (vertical) de tamanho 3.\n");
-    printf("Ele vai da linha 1, coluna 5 até a linha 3.\n");
+    printf("Ele vai da linha 4, coluna 7 até a linha 3.\n");
 
     for (l = 0; l < 3; l++) { // O loop vai de 0 a 2 (3 vezes)
-        tabuleiro[1 + l][5] = 3; // Coloca 3 (navio) nas posições
+        tabuleiro[4 + l][7] = 3; // Coloca 3 (navio) nas posições
     }
     printf("Navio vertical posicionado!\n\n");
 
