@@ -34,7 +34,7 @@ int main() {
     printf("Navio vertical posicionado!\n\n");
 
    //Exibe o tabuleiro final
-   printf("--- Tabuleiro Final ---\n");
+   printf("------- Tabuleiro Final -------\n\n");
    printf("------------------------------\n");
 
 
