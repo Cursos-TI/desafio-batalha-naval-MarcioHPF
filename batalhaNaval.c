@@ -33,10 +33,20 @@ int main() {
     }
     printf("Navio vertical posicionado!\n\n");
 
-    
+   //Exibe o tabuleiro final
+   printf("--- Tabuleiro Final ---\n");
+   printf("-------------------------\n");
 
 
+   for (l = 0; l < 10; l++) {
+        // Percorre cada coluna da linha atual (de 0 a 9) para imprimir o valor
+        for (c = 0; c < 10; c++) {
+            printf("%2d ", tabuleiro[l][c]); // Imprime o 0 ou 3 com 2 espaços
+        }
+        printf("|\n"); // Quebra de linha no final de cada linha do tabuleiro
+    }
 
+    printf("\n- - - Jogo de Batalha Naval Concluído! - - -\n");
 
     return 0;
 }
